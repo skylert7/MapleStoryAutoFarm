@@ -41,7 +41,7 @@ def buffCast():
 	# Cast buffs every N mins
 	# This is to prevent consistent behaviours on your player which might trigger the BOT detectors.
 	global noOfSkillsSet
-	rand = random.sample(range(12, 30), 8)
+	rand = random.sample(range(12, 30), 1)
 	print("'" + str(rand) + "'" + " seconds until next castBuff()")
 	threading.Timer(random.choice(rand), buffCast).start()
 	buffKeys = ['1', '2', '3', '4']

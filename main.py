@@ -44,4 +44,4 @@ while True:
 
     if running:
         skillCast()
-        charMove()
+        #charMove()
